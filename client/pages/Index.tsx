@@ -364,8 +364,8 @@ export default function Index() {
               </div>
 
               <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-lifeos-dark leading-none mb-8 group cursor-default">
-                <span className="inline-block transition-all duration-500 hover:text-lifeos-primary hover:scale-105 hover:-translate-y-2">Vibespeak</span>
-                <span className="inline-block transition-all duration-500 hover:text-lifeos-secondary hover:scale-105 hover:-translate-y-2"> with</span>
+                <span className="inline-block transition-all duration-500 hover:text-lifeos-primary hover:scale-105 hover:-translate-y-2 mr-4">Vibespeak</span>
+                <span className="inline-block transition-all duration-500 hover:text-lifeos-secondary hover:scale-105 hover:-translate-y-2">with</span>
                 <br />
                 <span className="inline-block transition-all duration-500 hover:text-lifeos-primary hover:scale-105 hover:-translate-y-2 mr-4">your</span>
                 <span className="inline-block transition-all duration-500 hover:text-lifeos-secondary hover:scale-105 hover:-translate-y-2">life.</span>
