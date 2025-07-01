@@ -199,7 +199,7 @@ export default function Index() {
                 Demo
               </a>
               <a
-                href="https://lifely.dev/pricing"
+                href="/pricing"
                 className="px-4 py-2 text-sm text-gray-600 hover:text-black transition-all duration-300 rounded-lg hover:bg-gradient-to-r hover:from-lifeos-primary/10 hover:to-lifeos-secondary/10 hover:scale-105 hover:shadow-sm"
               >
                 Pricing
@@ -265,7 +265,7 @@ export default function Index() {
                 Demo
               </a>
               <a
-                href="https://lifely.dev/pricing"
+                href="/pricing"
                 className="block px-4 py-3 text-gray-600 hover:text-lifeos-primary hover:bg-gradient-to-r hover:from-lifeos-primary/10 hover:to-lifeos-secondary/10 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-sm"
               >
                 Pricing
@@ -1215,7 +1215,7 @@ export default function Index() {
                   </li>
                   <li>
                     <a
-                      href="https://lifely.dev/sales"
+                      href="/sales"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Talk to sales
@@ -1239,7 +1239,7 @@ export default function Index() {
                 <ul className="space-y-4">
                   <li>
                     <a
-                      href="https://lifely.dev/how-it-works"
+                      href="/how-it-works"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       How it works
@@ -1247,7 +1247,7 @@ export default function Index() {
                   </li>
                   <li>
                     <a
-                      href="https://lifely.dev/use-cases"
+                      href="/use-cases"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Use cases
@@ -1255,7 +1255,7 @@ export default function Index() {
                   </li>
                   <li>
                     <a
-                      href="https://lifely.dev/security"
+                      href="/security"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Security
@@ -1263,7 +1263,7 @@ export default function Index() {
                   </li>
                   <li>
                     <a
-                      href="https://lifely.dev/pricing"
+                      href="/pricing"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Pricing
@@ -1279,7 +1279,7 @@ export default function Index() {
                 <ul className="space-y-4">
                   <li>
                     <a
-                      href="https://lifely.dev/documentation"
+                      href="/documentation"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Documentation
@@ -1287,7 +1287,7 @@ export default function Index() {
                   </li>
                   <li>
                     <a
-                      href="https://lifely.dev/help-center"
+                      href="/help-center"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Help Center
@@ -1295,7 +1295,7 @@ export default function Index() {
                   </li>
                   <li>
                     <a
-                      href="https://lifely.dev/privacy"
+                      href="/privacy"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Privacy Policy
@@ -1303,7 +1303,7 @@ export default function Index() {
                   </li>
                   <li>
                     <a
-                      href="https://lifely.dev/terms"
+                      href="/terms"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Terms of Service
