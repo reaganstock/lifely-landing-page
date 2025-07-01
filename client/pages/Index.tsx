@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import {
   Accordion,
   AccordionContent,
@@ -198,12 +199,12 @@ export default function Index() {
               >
                 Demo
               </a>
-              <a
-                href="/pricing"
+              <Link
+                to="/pricing"
                 className="px-4 py-2 text-sm text-gray-600 hover:text-black transition-all duration-300 rounded-lg hover:bg-gradient-to-r hover:from-lifeos-primary/10 hover:to-lifeos-secondary/10 hover:scale-105 hover:shadow-sm"
               >
                 Pricing
-              </a>
+              </Link>
             </div>
 
             {/* Right Side */}
@@ -264,12 +265,12 @@ export default function Index() {
               >
                 Demo
               </a>
-              <a
-                href="/pricing"
+              <Link
+                to="/pricing"
                 className="block px-4 py-3 text-gray-600 hover:text-lifeos-primary hover:bg-gradient-to-r hover:from-lifeos-primary/10 hover:to-lifeos-secondary/10 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-sm"
               >
                 Pricing
-              </a>
+              </Link>
               <div className="pt-4 space-y-3 border-t border-gray-200/50">
                 <a href="https://app.lifely.dev/auth" className="block w-full px-4 py-3 text-left text-gray-600 hover:text-lifeos-primary hover:bg-gradient-to-r hover:from-lifeos-primary/10 hover:to-lifeos-secondary/10 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-sm">
                   Sign In
@@ -1214,12 +1215,12 @@ export default function Index() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="/sales"
+                    <Link
+                      to="/sales"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Talk to sales
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a
@@ -1238,36 +1239,36 @@ export default function Index() {
                 </h4>
                 <ul className="space-y-4">
                   <li>
-                    <a
-                      href="/how-it-works"
+                    <Link
+                      to="/how-it-works"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       How it works
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/use-cases"
+                    <Link
+                      to="/use-cases"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Use cases
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/security"
+                    <Link
+                      to="/security"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Security
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/pricing"
+                    <Link
+                      to="/pricing"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Pricing
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -1278,36 +1279,36 @@ export default function Index() {
                 </h4>
                 <ul className="space-y-4">
                   <li>
-                    <a
-                      href="/documentation"
+                    <Link
+                      to="/documentation"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Documentation
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/help-center"
+                    <Link
+                      to="/help-center"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Help Center
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/privacy"
+                    <Link
+                      to="/privacy"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/terms"
+                    <Link
+                      to="/terms"
                       className="text-lifeos-gray-800 hover:text-lifeos-primary transition-all duration-300 text-sm hover:scale-105 hover:translate-x-1 inline-block relative z-10 pointer-events-auto"
                     >
                       Terms of Service
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
