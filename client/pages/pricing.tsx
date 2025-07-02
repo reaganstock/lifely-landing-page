@@ -1,4 +1,10 @@
 import { useState } from "react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function Pricing() {
   const [isAnnual, setIsAnnual] = useState(true);
@@ -304,17 +310,22 @@ export default function Pricing() {
             </h2>
           </div>
 
-          <div className="space-y-6">
+          <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((faq, index) => (
-              <div
+              <AccordionItem
                 key={index}
-                className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white/20 p-6"
+                value={`faq-${index}`}
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300"
               >
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">{faq.question}</h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">{faq.answer}</p>
-              </div>
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6 leading-relaxed">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
             ))}
-          </div>
+          </Accordion>
 
           <div className="text-center mt-12">
             <p className="text-lifeos-gray-400 mb-6">Still have questions?</p>
