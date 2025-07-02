@@ -380,7 +380,7 @@ export default function Index() {
 
 
               {/* Hero Demo Video */}
-              <div className="relative bg-white/40 backdrop-blur-sm rounded-3xl border border-white/20 p-8 lg:p-6 shadow-2xl max-w-5xl mx-auto mb-16 group hover:shadow-3xl hover:scale-[1.02] transition-all duration-500 cursor-pointer">
+              <div id="demo" className="relative bg-white/40 backdrop-blur-sm rounded-3xl border border-white/20 p-8 lg:p-6 shadow-2xl max-w-5xl mx-auto mb-16 group hover:shadow-3xl hover:scale-[1.02] transition-all duration-500 cursor-pointer">
                 <div className="aspect-video bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl flex items-center justify-center overflow-hidden relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="text-center text-white relative z-10">
@@ -895,9 +895,9 @@ export default function Index() {
             <h2 className="text-5xl font-medium text-lifeos-dark mb-8 leading-tight tracking-tight hover:text-lifeos-primary transition-colors duration-500 cursor-default">
               "Finally, AI that gets my life."
             </h2>
-            <button className="bg-black text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg hover:shadow-2xl hover:shadow-lifeos-primary/25 active:scale-105">
+            <a href={`${getAppUrl()}/auth`} className="bg-black text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg hover:shadow-2xl hover:shadow-lifeos-primary/25 active:scale-105 inline-block">
               Try Lifely Today
-            </button>
+            </a>
           </div>
         </div>
 
@@ -944,9 +944,9 @@ export default function Index() {
                     productivity app of the 21st century.
                   </p>
                 </div>
-                <button className="bg-black text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg hover:shadow-2xl hover:shadow-lifeos-primary/25 active:scale-105">
+                <a href={`${getAppUrl()}/auth`} className="bg-black text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg hover:shadow-2xl hover:shadow-lifeos-primary/25 active:scale-105 inline-block">
                   Join the Movement
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -967,10 +967,10 @@ export default function Index() {
               talking to AI.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <button className="bg-black text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg hover:shadow-2xl hover:shadow-lifeos-primary/25 active:scale-105">
+              <a href={`${getAppUrl()}/auth`} className="bg-black text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg hover:shadow-2xl hover:shadow-lifeos-primary/25 active:scale-105 inline-block">
                 Get Started Free
-              </button>
-              <button className="flex items-center gap-2 text-lifeos-dark/70 hover:text-lifeos-primary font-medium text-lg transition-all duration-300 group hover:scale-105">
+              </a>
+              <a href="#demo" className="flex items-center gap-2 text-lifeos-dark/70 hover:text-lifeos-primary font-medium text-lg transition-all duration-300 group hover:scale-105">
                 <svg
                   className="w-5 h-5 group-hover:scale-125 group-hover:rotate-12 transition-all duration-300"
                   fill="currentColor"
@@ -979,7 +979,7 @@ export default function Index() {
                   <path d="M8 5v14l11-7z" />
                 </svg>
                 <span>Watch Demo</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
