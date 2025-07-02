@@ -1,11 +1,5 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 
 // Helper function to get the correct app URL
@@ -869,7 +863,7 @@ export default function Index() {
 
                 {/* Integration Cards Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-                  {filteredIntegrations.map((integration, index) => (
+                  {filteredIntegrations.map((integration) => (
                     <div key={integration.name} className="bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20 p-6 hover:bg-white/20 hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 group cursor-pointer">
                       <div className="mb-4">
                         <div className={`w-12 h-12 ${integration.bgColor} rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg group-hover:shadow-xl`}>
@@ -1067,97 +1061,127 @@ export default function Index() {
               </p>
             </div>
 
-            <Accordion type="single" collapsible className="w-full space-y-4 relative z-50" role="region" aria-label="Frequently Asked Questions">
-              <AccordionItem
-                value="privacy"
-                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
-              >
-                <AccordionTrigger 
-                  className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-lifeos-primary focus:ring-offset-2 rounded-md cursor-pointer relative z-50 pointer-events-auto"
-                >
-                  How does Lifely protect my privacy and data?
-                </AccordionTrigger>
-                <AccordionContent 
-                  id="privacy-content"
-                  className="text-lifeos-gray-400 pb-6 hover:text-lifeos-dark transition-colors duration-300"
-                  role="region"
-                  aria-labelledby="privacy-trigger"
-                >
-                  Your privacy is our top priority. All data is encrypted at
-                  rest and in transit using industry-standard encryption. We
-                  never sell your data to third parties, and you maintain full
-                  ownership of your content. Our AI processes your data locally
-                  when possible, and any cloud processing is done with strict
-                  privacy controls and data minimization principles.
-                </AccordionContent>
-              </AccordionItem>
+            <div className="space-y-8">
+              {/* Q1 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 1</span>
+                  What is Lifely?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  Your personal operating system: one web & mobile dashboard where calendar, tasks, routines, goals, and notes all live—and can be edited by a built-in AI assistant.
+                </p>
+              </div>
 
-              <AccordionItem
-                value="platforms"
-                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
-              >
-                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-secondary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
-                  What platforms and devices does Lifely support?
-                </AccordionTrigger>
-                <AccordionContent className="text-lifeos-gray-400 pb-6">
-                  Lifely is available on all major platforms including iOS,
-                  Android, macOS, Windows, and Linux. We also offer a web
-                  version that works seamlessly across all browsers. Your data
-                  syncs in real-time across all devices, so you can access your
-                  life OS anywhere, anytime.
-                </AccordionContent>
-              </AccordionItem>
+              {/* Q2 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 2</span>
+                  How does the AI actually help me day-to-day?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  Type or speak natural language ("Shift my meetings 90 min and block a workout") and the assistant updates every connected view instantly—no manual dragging or copy-paste.
+                </p>
+              </div>
 
-              <AccordionItem
-                value="voice-models"
-                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
-              >
-                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
-                  Which AI voice models power Lifely?
-                </AccordionTrigger>
-                <AccordionContent className="text-lifeos-gray-400 pb-6">
-                  Lifely integrates with leading AI models including OpenAI's
-                  GPT series, Claude, Google's Gemini, and Grok. You can choose
-                  your preferred model or let Lifely automatically select the
-                  best one for each task. We continuously add support for new
-                  models to ensure you always have access to the latest AI
-                  capabilities.
-                </AccordionContent>
-              </AccordionItem>
+              {/* Q3 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 3</span>
+                  Why organize life into categories?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  Because juggling work, fitness, study, faith, etc. in one undifferentiated list gets messy fast. Categories keep context clear while still letting you view everything at a glance when you need the "big picture."
+                </p>
+              </div>
 
-              <AccordionItem
-                value="roadmap"
-                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
-              >
-                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-secondary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
-                  What's on the Lifely roadmap?
-                </AccordionTrigger>
-                <AccordionContent className="text-lifeos-gray-400 pb-6">
-                  We're constantly improving Lifely based on user feedback.
-                  Upcoming features include advanced automation workflows, team
-                  collaboration tools, enhanced integrations with productivity
-                  apps, voice-first interactions, and AI-powered insights about
-                  your habits and productivity patterns. Check our public
-                  roadmap for the latest updates.
-                </AccordionContent>
-              </AccordionItem>
+              {/* Q4 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 4</span>
+                  What can I control from the dashboard right now?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  Five global views: Calendar, Todos, Routines, Goals, and Notes. Each one supports filters, bulk actions, and quick AI commands. Habits and additional views are coming next.
+                </p>
+              </div>
 
-              <AccordionItem
-                value="refunds"
-                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
-              >
-                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
-                  What is your refund policy?
-                </AccordionTrigger>
-                <AccordionContent className="text-lifeos-gray-400 pb-6">
-                  We offer a 30-day money-back guarantee for all paid plans. If
-                  you're not completely satisfied with Lifely, contact our
-                  support team within 30 days of your purchase for a full
-                  refund. We also provide a generous free tier so you can try
-                  most features before upgrading to a paid plan.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+              {/* Q5 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 5</span>
+                  Do I have to give up my current tools?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  No. Lifely plugs into popular calendars, note apps, and task managers so your existing data stays where it is—Lifely just becomes the command center on top.
+                </p>
+              </div>
+
+              {/* Q6 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 6</span>
+                  Can I just talk instead of type?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  Yes. Real-time voice mode lets you speak commands or brainstorm ideas; the AI transcribes, understands intent, and executes or drafts content on the spot.
+                </p>
+              </div>
+
+              {/* Q7 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 7</span>
+                  What's special about the Notes section?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  Full-screen editing plus quick uploads: drop an image, record a voice memo, or paste text. Everything becomes searchable—and the AI can generate summaries, study guides, or action items from any note.
+                </p>
+              </div>
+
+              {/* Q8 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 8</span>
+                  What's special about the Routines section?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  You can print them out and display them. The printed copy employs a beautiful aesthetic so you stick to your routines.
+                </p>
+              </div>
+
+              {/* Q9 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 9</span>
+                  Will Lifely act on its own?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  Only if you let it. By default every AI suggestion is preview-only; flipping the "Autonomous" switch gives it permission to apply changes automatically (only for safe functions).
+                </p>
+              </div>
+
+              {/* Q10 */}
+              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
+                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
+                  <span className="text-lifeos-primary mr-2">Q 10</span>
+                  How much does it cost?
+                </h3>
+                <p className="text-lifeos-gray-400 leading-relaxed">
+                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                  Lifely is free while we're in public beta.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -1182,30 +1206,6 @@ export default function Index() {
                   and watch everything organize itself.
                 </p>
                 <div className="flex gap-4">
-                  <a
-                    href="#"
-                    className="w-10 h-10 bg-white/5 border border-white/10 rounded-lg flex items-center justify-center hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary hover:border-lifeos-primary/50 transition-all duration-300 hover:scale-125 hover:-translate-y-2 hover:shadow-xl hover:shadow-lifeos-primary/30 group"
-                  >
-                    <svg
-                      className="w-5 h-5 group-hover:scale-110 transition-transform duration-300"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12.017 21.5769C15.8628 21.5769 20.34 17.0998 20.34 11.5769C20.34 6.05406 15.8628 1.5769 12.017 1.5769C4.81715 1.5769 0.339996 6.05406 0.339996 11.5769C0.339996 17.0998 4.81715 21.5769 12.017 21.5769Z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="#"
-                    className="w-10 h-10 bg-white/5 border border-white/10 rounded-lg flex items-center justify-center hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary hover:border-lifeos-primary/50 transition-all duration-300 hover:scale-125 hover:-translate-y-2 hover:shadow-xl hover:shadow-lifeos-primary/30 group"
-                  >
-                    <svg
-                      className="w-5 h-5 group-hover:scale-110 transition-transform duration-300"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
-                    </svg>
-                  </a>
                   <a
                     href="#"
                     className="w-10 h-10 bg-white/5 border border-white/10 rounded-lg flex items-center justify-center hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary hover:border-lifeos-primary/50 transition-all duration-300 hover:scale-125 hover:-translate-y-2 hover:shadow-xl hover:shadow-lifeos-primary/30 group"
