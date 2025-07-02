@@ -355,16 +355,9 @@ export default function Index() {
 
         <div className="relative z-10">
           {/* Hero Section */}
-          <div className="max-w-7xl mx-auto px-6 lg:px-4 py-24 lg:py-16 relative">
-            <div className="text-center max-w-5xl mx-auto mb-20 lg:mb-16">
-              <div className="inline-flex items-center gap-3 bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200/60 rounded-full px-5 py-3 mb-6 shadow-sm hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer group">
-                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse group-hover:animate-bounce"></div>
-                <span className="text-sm font-medium text-green-700 transition-colors duration-300 group-hover:text-green-800">
-                  Vibecoding Community Approved
-                </span>
-              </div>
-
-              <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-lifeos-dark leading-none mb-8 group cursor-default">
+          <div className="max-w-7xl mx-auto px-6 lg:px-4 py-32 lg:py-24 relative">
+            <div className="text-center max-w-5xl mx-auto mb-16">
+              <h1 className="text-7xl md:text-8xl lg:text-9xl font-bold text-lifeos-dark leading-none mb-8 group cursor-default">
                 <span className="inline-block transition-all duration-500 hover:text-lifeos-primary hover:scale-105 hover:-translate-y-2 mr-4">Vibespeak</span>
                 <span className="inline-block transition-all duration-500 hover:text-lifeos-secondary hover:scale-105 hover:-translate-y-2 mr-4">with</span>
                 <br />
@@ -378,9 +371,16 @@ export default function Index() {
                 talking to AI.
               </p>
 
+              {/* Primary CTA */}
+              <div className="mb-16">
+                <a href={`${getAppUrl()}/auth`} className="bg-gradient-to-r from-lifeos-primary to-lifeos-secondary text-white px-12 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-xl hover:shadow-2xl hover:shadow-lifeos-primary/25 active:scale-105 inline-block">
+                  Get Started Free
+                </a>
+                <p className="text-sm text-lifeos-gray-400 mt-3">Free to use, no credit card required</p>
+              </div>
 
               {/* Hero Demo Video */}
-              <div id="demo" className="relative bg-white/40 backdrop-blur-sm rounded-3xl border border-white/20 p-8 lg:p-6 shadow-2xl max-w-5xl mx-auto mb-16 group hover:shadow-3xl hover:scale-[1.02] transition-all duration-500 cursor-pointer">
+              <div id="demo" className="relative bg-white/40 backdrop-blur-sm rounded-3xl border border-white/20 p-8 lg:p-6 shadow-2xl max-w-5xl mx-auto group hover:shadow-3xl hover:scale-[1.02] transition-all duration-500 cursor-pointer">
                 <div className="aspect-video bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl flex items-center justify-center overflow-hidden relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="text-center text-white relative z-10">
@@ -392,10 +392,10 @@ export default function Index() {
                       <path d="M8 5v14l11-7z"></path>
                     </svg>
                     <p className="text-lg font-medium opacity-60 transition-all duration-300 group-hover:opacity-100 group-hover:text-lifeos-primary">
-                      Hero Demo Video
+                      See Lifely in Action
                     </p>
                     <p className="text-sm opacity-40 mt-2 transition-all duration-300 group-hover:opacity-80">
-                      Showing Lifely in action
+                      Watch how AI transforms your productivity
                     </p>
                   </div>
                 </div>
