@@ -1,5 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 
 // Helper function to get the correct app URL
@@ -1061,127 +1067,131 @@ export default function Index() {
               </p>
             </div>
 
-            <div className="space-y-8">
-              {/* Q1 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 1</span>
+            <Accordion type="single" collapsible className="w-full space-y-4 relative z-50" role="region" aria-label="Frequently Asked Questions">
+              <AccordionItem
+                value="what-is-lifely"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger 
+                  className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-lifeos-primary focus:ring-offset-2 rounded-md cursor-pointer relative z-50 pointer-events-auto"
+                >
                   What is Lifely?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent 
+                  className="text-lifeos-gray-400 pb-6 hover:text-lifeos-dark transition-colors duration-300"
+                >
                   Your personal operating system: one web & mobile dashboard where calendar, tasks, routines, goals, and notes all live—and can be edited by a built-in AI assistant.
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q2 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 2</span>
+              <AccordionItem
+                value="ai-help"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-secondary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   How does the AI actually help me day-to-day?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   Type or speak natural language ("Shift my meetings 90 min and block a workout") and the assistant updates every connected view instantly—no manual dragging or copy-paste.
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q3 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 3</span>
+              <AccordionItem
+                value="categories"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   Why organize life into categories?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   Because juggling work, fitness, study, faith, etc. in one undifferentiated list gets messy fast. Categories keep context clear while still letting you view everything at a glance when you need the "big picture."
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q4 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 4</span>
+              <AccordionItem
+                value="dashboard-control"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-secondary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   What can I control from the dashboard right now?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   Five global views: Calendar, Todos, Routines, Goals, and Notes. Each one supports filters, bulk actions, and quick AI commands. Habits and additional views are coming next.
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q5 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 5</span>
+              <AccordionItem
+                value="current-tools"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   Do I have to give up my current tools?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   No. Lifely plugs into popular calendars, note apps, and task managers so your existing data stays where it is—Lifely just becomes the command center on top.
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q6 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 6</span>
+              <AccordionItem
+                value="voice-commands"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-secondary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   Can I just talk instead of type?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   Yes. Real-time voice mode lets you speak commands or brainstorm ideas; the AI transcribes, understands intent, and executes or drafts content on the spot.
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q7 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 7</span>
+              <AccordionItem
+                value="notes-special"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   What's special about the Notes section?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   Full-screen editing plus quick uploads: drop an image, record a voice memo, or paste text. Everything becomes searchable—and the AI can generate summaries, study guides, or action items from any note.
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q8 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 8</span>
+              <AccordionItem
+                value="routines-special"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-secondary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   What's special about the Routines section?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   You can print them out and display them. The printed copy employs a beautiful aesthetic so you stick to your routines.
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q9 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 9</span>
+              <AccordionItem
+                value="autonomous"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-primary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-primary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   Will Lifely act on its own?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   Only if you let it. By default every AI suggestion is preview-only; flipping the "Autonomous" switch gives it permission to apply changes automatically (only for safe functions).
-                </p>
-              </div>
+                </AccordionContent>
+              </AccordionItem>
 
-              {/* Q10 */}
-              <div className="border border-gray-200 rounded-lg p-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-lifeos-dark mb-3">
-                  <span className="text-lifeos-primary mr-2">Q 10</span>
+              <AccordionItem
+                value="cost"
+                className="border border-gray-200 rounded-lg px-6 hover:border-lifeos-secondary/50 hover:shadow-md transition-all duration-300 relative z-50 pointer-events-auto"
+              >
+                <AccordionTrigger className="text-left text-lg font-medium py-6 hover:no-underline hover:text-lifeos-secondary transition-colors duration-300 cursor-pointer relative z-50 pointer-events-auto">
                   How much does it cost?
-                </h3>
-                <p className="text-lifeos-gray-400 leading-relaxed">
-                  <span className="text-lifeos-secondary font-medium mr-2">A</span>
+                </AccordionTrigger>
+                <AccordionContent className="text-lifeos-gray-400 pb-6">
                   Lifely is free while we're in public beta.
-                </p>
-              </div>
-            </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
           </div>
         </div>
 
