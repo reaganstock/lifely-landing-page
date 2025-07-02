@@ -354,6 +354,26 @@ export default function Index() {
         </div>
 
         <div className="relative z-10">
+          {/* Animated Background Elements */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            {/* Floating Geometric Shapes */}
+            <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-br from-lifeos-primary/20 to-lifeos-secondary/20 rounded-full blur-xl animate-float" style={{animationDelay: '0s'}}></div>
+            <div className="absolute top-40 right-20 w-16 h-16 bg-gradient-to-br from-lifeos-secondary/30 to-purple-400/30 rounded-lg blur-lg animate-pulse" style={{animationDelay: '1s', animationDuration: '6s'}}></div>
+            <div className="absolute bottom-32 left-1/4 w-12 h-12 bg-gradient-to-br from-lifeos-primary/25 to-blue-400/25 rounded-full blur-md animate-ping" style={{animationDelay: '2s', animationDuration: '8s'}}></div>
+            <div className="absolute top-1/3 right-1/3 w-24 h-24 bg-gradient-to-br from-purple-400/20 to-lifeos-secondary/20 rounded-xl blur-lg animate-float-delayed"></div>
+            <div className="absolute bottom-20 right-10 w-14 h-14 bg-gradient-to-br from-lifeos-primary/30 to-pink-400/30 rounded-full blur-sm animate-bounce" style={{animationDelay: '4s', animationDuration: '7s'}}></div>
+            <div className="absolute top-60 left-1/3 w-18 h-18 bg-gradient-to-br from-cyan-400/25 to-lifeos-primary/25 rounded-lg blur-lg animate-float" style={{animationDelay: '5s'}}></div>
+            <div className="absolute bottom-40 left-20 w-10 h-10 bg-gradient-to-br from-lifeos-secondary/35 to-violet-400/35 rounded-full blur-md animate-pulse" style={{animationDelay: '6s', animationDuration: '4s'}}></div>
+            
+            {/* Large Animated Gradient Orbs */}
+            <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-96 h-96 bg-gradient-radial from-lifeos-primary/10 via-lifeos-secondary/5 to-transparent rounded-full blur-3xl animate-spin" style={{animationDuration: '20s'}}></div>
+            <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gradient-radial from-lifeos-secondary/15 via-purple-400/8 to-transparent rounded-full blur-2xl animate-pulse" style={{animationDuration: '15s'}}></div>
+            
+            {/* Subtle Moving Lines */}
+            <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-lifeos-primary/30 to-transparent animate-pulse" style={{animationDuration: '3s'}}></div>
+            <div className="absolute bottom-0 right-0 w-full h-px bg-gradient-to-l from-transparent via-lifeos-secondary/30 to-transparent animate-pulse" style={{animationDuration: '4s', animationDelay: '1s'}}></div>
+          </div>
+
           {/* Hero Section */}
           <div className="max-w-7xl mx-auto px-6 lg:px-4 py-32 lg:py-24 relative">
             <div className="text-center max-w-5xl mx-auto mb-16">
