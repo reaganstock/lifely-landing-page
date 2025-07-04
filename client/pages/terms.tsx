@@ -202,13 +202,13 @@ export default function Terms() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-lifeos-light via-white to-blue-50">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
+      <header className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-4 py-4">
           <div className="flex items-center justify-between">
             <a href="/" className="flex items-center gap-3 group">
-              <div className="w-8 h-8 bg-gradient-to-br from-lifeos-primary to-lifeos-secondary rounded-lg flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+              <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center">
                 <svg
                   className="w-4 h-4 text-white transition-transform duration-300 group-hover:scale-110"
                   fill="currentColor"
@@ -217,20 +217,20 @@ export default function Terms() {
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 </svg>
               </div>
-              <span className="text-xl font-medium text-black tracking-tight transition-all duration-300 group-hover:text-lifeos-primary">
+              <span className="text-xl font-medium text-black">
                 Lifely
               </span>
             </a>
             <div className="flex items-center gap-4">
               <a
                 href="/privacy"
-                className="text-lifeos-primary hover:text-lifeos-secondary transition-all duration-300 hover:scale-105"
+                className="text-gray-600 hover:text-black transition-colors duration-200"
               >
                 Privacy Policy
               </a>
               <a
                 href="/"
-                className="text-lifeos-gray-400 hover:text-lifeos-primary transition-all duration-300 hover:scale-105"
+                className="text-gray-600 hover:text-black transition-colors duration-200"
               >
                 ← Back to Home
               </a>
@@ -240,7 +240,7 @@ export default function Terms() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20">
+      <section className="py-16">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-lifeos-primary/10 to-lifeos-secondary/10 border border-lifeos-primary/20 rounded-full px-4 py-2 mb-8">
@@ -250,11 +250,8 @@ export default function Terms() {
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold text-lifeos-dark mb-8">
-              Terms of{" "}
-              <span className="bg-gradient-to-r from-lifeos-primary to-lifeos-secondary bg-clip-text text-transparent">
-                Service
-              </span>
+            <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
+              Terms of Service
             </h1>
             
             <p className="text-xl md:text-2xl text-lifeos-gray-400 mb-8 leading-relaxed">
@@ -279,7 +276,7 @@ export default function Terms() {
       </section>
 
       {/* Terms Sections */}
-      <section className="py-20">
+      <section className="py-16">
         <div className="max-w-4xl mx-auto px-6">
           <div className="space-y-12">
             {sections.map((section, sectionIndex) => (

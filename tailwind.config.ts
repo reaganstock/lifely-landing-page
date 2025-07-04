@@ -57,11 +57,8 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // LifeOS AI brand colors
+        // LifeOS AI brand colors - simplified palette
         lifeos: {
-          50: "#DBEAFE",
-          100: "#BEDBFF",
-          200: "#E0E7FF",
           primary: "#2B7FFF",
           secondary: "#155DFC",
           dark: "#18181B",
@@ -70,9 +67,6 @@ export default {
             600: "#E4E4E7",
             800: "#D4D4D8",
           },
-          success: "#00C950",
-          warning: "#FFBD2E",
-          error: "#FF5F57",
         },
       },
       borderRadius: {
@@ -108,51 +102,43 @@ export default {
         "fire-gentle": {
           "0%": { 
             transform: "scale(1) rotate(0deg)",
-            opacity: "0.4"
+            opacity: "0.2"
           },
-          "33%": { 
-            transform: "scale(1.1) rotate(-2deg)",
-            opacity: "0.6"
-          },
-          "66%": { 
-            transform: "scale(0.95) rotate(1deg)",
+          "50%": { 
+            transform: "scale(1.05) rotate(-1deg)",
             opacity: "0.3"
           },
           "100%": { 
             transform: "scale(1) rotate(0deg)",
-            opacity: "0.4"
+            opacity: "0.2"
           },
         },
         "fire-flow": {
           "0%": { 
             transform: "scale(1) rotate(0deg)",
-            opacity: "0.5"
+            opacity: "0.3"
           },
           "50%": { 
-            transform: "scale(1.15) rotate(-3deg)",
-            opacity: "0.7"
+            transform: "scale(1.08) rotate(-1deg)",
+            opacity: "0.4"
           },
           "100%": { 
             transform: "scale(1) rotate(0deg)",
-            opacity: "0.5"
+            opacity: "0.3"
           },
         },
         "fire-pulse": {
           "0%": { 
             transform: "scale(1)",
-            opacity: "0.4"
+            opacity: "0.2"
           },
-          "33%": { 
-            transform: "scale(1.3)",
-            opacity: "0.7"
-          },
-          "66%": { 
-            transform: "scale(0.8)",
-            opacity: "0.3"
+          "50%": { 
+            transform: "scale(1.1)",
+            opacity: "0.35"
           },
           "100%": { 
             transform: "scale(1)",
-            opacity: "0.4"
+            opacity: "0.2"
           },
         },
       },

@@ -136,35 +136,35 @@ export default function Privacy() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-lifeos-light via-white to-blue-50">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
+      <header className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-4 py-4">
           <div className="flex items-center justify-between">
-            <a href="/" className="flex items-center gap-3 group">
-              <div className="w-8 h-8 bg-gradient-to-br from-lifeos-primary to-lifeos-secondary rounded-lg flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg">
+            <a href="/" className="flex items-center gap-3">
+              <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center">
                 <svg
-                  className="w-4 h-4 text-white transition-transform duration-300 group-hover:scale-110"
+                  className="w-4 h-4 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 </svg>
               </div>
-              <span className="text-xl font-medium text-black tracking-tight transition-all duration-300 group-hover:text-lifeos-primary">
+              <span className="text-xl font-medium text-black">
                 Lifely
               </span>
             </a>
             <div className="flex items-center gap-4">
               <a
                 href="/security"
-                className="text-lifeos-primary hover:text-lifeos-secondary transition-all duration-300 hover:scale-105"
+                className="text-gray-600 hover:text-black transition-colors duration-200"
               >
                 Security
               </a>
               <a
                 href="/"
-                className="text-lifeos-gray-400 hover:text-lifeos-primary transition-all duration-300 hover:scale-105"
+                className="text-gray-600 hover:text-black transition-colors duration-200"
               >
                 ← Back to Home
               </a>
@@ -174,61 +174,41 @@ export default function Privacy() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20">
+      <section className="py-16">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-lifeos-primary/10 to-lifeos-secondary/10 border border-lifeos-primary/20 rounded-full px-4 py-2 mb-8">
-              <div className="w-2 h-2 bg-lifeos-primary rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium text-lifeos-primary uppercase tracking-wide">
-                Privacy Policy
-              </span>
-            </div>
-            
-            <h1 className="text-5xl md:text-6xl font-bold text-lifeos-dark mb-8">
-              Your Privacy is{" "}
-              <span className="bg-gradient-to-r from-lifeos-primary to-lifeos-secondary bg-clip-text text-transparent">
-                Our Priority
-              </span>
+          <div className="mb-12">
+            <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
+              Privacy Policy
             </h1>
             
-            <p className="text-xl md:text-2xl text-lifeos-gray-400 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               We believe privacy is a fundamental right. This policy explains how we protect your personal information and what rights you have over your data.
             </p>
 
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white/20 p-6 shadow-lg">
-              <div className="flex items-center justify-center gap-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-lifeos-success to-green-600 rounded-xl flex items-center justify-center">
-                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
-                  </svg>
-                </div>
-                <div className="text-left">
-                  <p className="font-semibold text-lifeos-dark">GDPR & CCPA Compliant</p>
-                  <p className="text-sm text-lifeos-gray-400">Last updated: {lastUpdated}</p>
-                </div>
-              </div>
-            </div>
+            <p className="text-sm text-gray-500 mt-4">
+              Last updated: {lastUpdated}
+            </p>
           </div>
         </div>
       </section>
 
       {/* Privacy Sections */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="space-y-16">
+          <div className="space-y-12">
             {sections.map((section, sectionIndex) => (
-              <div key={sectionIndex} className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white/20 p-8 shadow-lg">
-                <h2 className="text-3xl font-bold text-lifeos-dark mb-8 border-b border-gray-200 pb-4">
+              <div key={sectionIndex} className="border-b border-gray-200 pb-8">
+                <h2 className="text-2xl font-bold text-black mb-6">
                   {section.title}
                 </h2>
                 
                 <div className="space-y-8">
                   {section.content.map((item, itemIndex) => (
-                    <div key={itemIndex}>
-                      <h3 className="text-xl font-semibold text-lifeos-dark mb-4">
+                    <div key={itemIndex} className="mb-6">
+                      <h3 className="text-lg font-semibold text-black mb-2">
                         {item.subtitle}
                       </h3>
-                      <p className="text-lifeos-gray-400 leading-relaxed">
+                      <p className="text-gray-600 leading-relaxed">
                         {item.text}
                       </p>
                     </div>
@@ -241,46 +221,28 @@ export default function Privacy() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-white/50 backdrop-blur-sm">
+      <section className="py-12 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-3xl p-12 text-center text-white">
-            <h2 className="text-3xl font-bold mb-6">Questions About Your Privacy?</h2>
-            <p className="text-xl text-white/80 mb-8">
+          <div className="bg-white border border-gray-200 rounded-lg p-8 text-center">
+            <h2 className="text-2xl font-bold mb-4 text-black">Questions About Your Privacy?</h2>
+            <p className="text-gray-600 mb-6">
               Our privacy team is here to help you understand and exercise your rights.
             </p>
 
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20 p-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-lifeos-primary to-lifeos-secondary rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                  </svg>
-                </div>
-                <h3 className="font-semibold mb-2">Privacy Officer</h3>
-                <p className="text-white/80 text-sm mb-4">Contact our Data Protection Officer</p>
-                <a
-                  href="mailto:privacy@lifely.com"
-                  className="text-lifeos-primary hover:text-lifeos-secondary transition-colors duration-300 text-sm font-medium"
-                >
-                  privacy@lifely.com
-                </a>
-              </div>
-
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20 p-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-lifeos-secondary to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                  </svg>
-                </div>
-                <h3 className="font-semibold mb-2">Data Requests</h3>
-                <p className="text-white/80 text-sm mb-4">Request, export, or delete your data</p>
-                <a
-                  href="/login"
-                  className="text-lifeos-primary hover:text-lifeos-secondary transition-colors duration-300 text-sm font-medium"
-                >
-                  Manage in Settings
-                </a>
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="mailto:privacy@lifely.com"
+                className="text-blue-600 hover:text-blue-800 transition-colors duration-200 text-sm"
+              >
+                privacy@lifely.com
+              </a>
+              <span className="text-gray-400 text-sm hidden sm:block">|</span>
+              <a
+                href="/login"
+                className="text-blue-600 hover:text-blue-800 transition-colors duration-200 text-sm"
+              >
+                Manage in Settings
+              </a>
             </div>
 
             <div className="mt-8 p-6 bg-white/10 border border-white/20 rounded-xl">
