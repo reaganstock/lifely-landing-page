@@ -171,7 +171,7 @@ export default function Pricing() {
                 {plan.featured && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <div className="bg-gradient-to-r from-lifeos-primary to-lifeos-secondary text-white px-6 py-2 rounded-full text-sm font-semibold">
-                      Most Popular
+                      Free Beta Access
                     </div>
                   </div>
                 )}
