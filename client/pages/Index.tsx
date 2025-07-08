@@ -449,7 +449,7 @@ export default function Index() {
               {/* Waitlist Signup */}
               <div className="max-w-lg mx-auto mt-12 text-center">
                 <h3 className="text-3xl font-bold text-lifeos-dark mb-3">
-                  Get Early Access
+                  Get Pre-Beta Premiums
                 </h3>
 
                 <form className="flex gap-3 mb-4">
@@ -555,23 +555,17 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl h-64 lg:h-52 flex items-center justify-center overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
+                  <video
+                    className="w-full h-full object-cover"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  >
+                    <source src="https://res.cloudinary.com/dksrfhwlx/video/upload/v1751951376/LifeCategories_pqgsrj.mp4" type="video/mp4" />
+                  </video>
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <div className="text-center text-white relative z-10">
-                    <svg
-                      className="w-16 h-16 mx-auto mb-4 opacity-60 transition-all duration-500 group-hover/video:opacity-100 group-hover/video:scale-110 group-hover/video:text-lifeos-primary"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z"></path>
-                    </svg>
-                    <p className="text-lg font-medium opacity-60 transition-all duration-300 group-hover/video:opacity-100">
-                      Life Categories Demo
-                    </p>
-                    <p className="text-sm opacity-60 mt-2 transition-all duration-300 group-hover/video:opacity-80">
-                      Try it in demo →
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -681,23 +675,17 @@ export default function Index() {
                     <span className="bg-lifeos-primary/10 text-lifeos-primary px-3 py-1 rounded-full text-xs font-medium">KPI Integration</span>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl h-64 lg:h-52 flex items-center justify-center overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
+                  <video
+                    className="w-full h-full object-cover"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  >
+                    <source src="https://res.cloudinary.com/dksrfhwlx/video/upload/v1751948988/GlobalRoutines_gtuswe.mp4" type="video/mp4" />
+                  </video>
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <div className="text-center text-white relative z-10">
-                    <svg
-                      className="w-16 h-16 mx-auto mb-4 opacity-60 transition-all duration-500 group-hover/video:opacity-100 group-hover/video:scale-110 group-hover/video:text-lifeos-primary"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z"></path>
-                    </svg>
-                    <p className="text-lg font-medium opacity-60 transition-all duration-300 group-hover/video:opacity-100">
-                      Goals & Routines Demo
-                    </p>
-                    <p className="text-sm opacity-60 mt-2 transition-all duration-300 group-hover/video:opacity-80">
-                      Try it in demo →
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -1370,17 +1358,16 @@ export default function Index() {
                 </svg>
               </button>
             </div>
-            <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
-              <div className="text-gray-500 text-center">
-                <svg
-                  className="w-16 h-16 mx-auto mb-4"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8 5v14l11-7z"></path>
-                </svg>
-                <p>Demo video would play here</p>
-              </div>
+            <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+              <iframe
+                src="https://player.vimeo.com/video/1099560675?h=abcdef1234&autoplay=1&loop=1&muted=1"
+                width="100%"
+                height="100%"
+                style={{ border: 'none' }}
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
         </div>
