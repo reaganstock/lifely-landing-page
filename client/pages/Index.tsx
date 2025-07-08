@@ -601,7 +601,7 @@ export default function Index() {
                     <span className="bg-lifeos-primary/10 text-lifeos-primary px-3 py-1 rounded-full text-xs font-medium">Outlook</span>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl h-64 lg:h-52 overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
                   <video
                     className="w-full h-full object-cover"
                     autoPlay
@@ -641,7 +641,7 @@ export default function Index() {
                     <span className="bg-lifeos-primary/10 text-lifeos-primary px-3 py-1 rounded-full text-xs font-medium">Universal Import</span>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl h-64 lg:h-52 overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
                   <video
                     className="w-full h-full object-cover"
                     autoPlay
