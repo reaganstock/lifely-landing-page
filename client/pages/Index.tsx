@@ -1358,17 +1358,16 @@ export default function Index() {
                 </svg>
               </button>
             </div>
-            <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
-              <iframe
-                src="https://player.vimeo.com/video/1099560675?autoplay=1&loop=1&muted=1&autopause=0"
-                width="100%"
-                height="100%"
-                style={{ border: 'none' }}
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-                title="Lifely Demo Video"
-              ></iframe>
+            <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden relative">
+              <div style={{ padding: '64.06% 0 0 0', position: 'relative' }}>
+                <iframe
+                  src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1"
+                  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  allowFullScreen
+                  title="Lifely_Official_Demo"
+                />
+              </div>
             </div>
           </div>
         </div>
