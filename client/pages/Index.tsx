@@ -601,23 +601,17 @@ export default function Index() {
                     <span className="bg-lifeos-primary/10 text-lifeos-primary px-3 py-1 rounded-full text-xs font-medium">Outlook</span>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl h-64 lg:h-52 flex items-center justify-center overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl h-64 lg:h-52 overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300">
+                  <video
+                    className="w-full h-full object-cover"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  >
+                    <source src="https://res.cloudinary.com/dksrfhwlx/video/upload/v1751939948/LifelyCalendar_i1jjuo.mp4" type="video/mp4" />
+                  </video>
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <div className="text-center text-white relative z-10">
-                    <svg
-                      className="w-16 h-16 mx-auto mb-4 opacity-60 transition-all duration-500 group-hover/video:opacity-100 group-hover/video:scale-110 group-hover/video:text-lifeos-primary"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z"></path>
-                    </svg>
-                    <p className="text-lg font-medium opacity-60 transition-all duration-300 group-hover/video:opacity-100">
-                      Smart Calendar Demo
-                    </p>
-                    <p className="text-sm opacity-60 mt-2 transition-all duration-300 group-hover/video:opacity-80">
-                      Try it in demo →
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -647,23 +641,17 @@ export default function Index() {
                     <span className="bg-lifeos-primary/10 text-lifeos-primary px-3 py-1 rounded-full text-xs font-medium">Universal Import</span>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl h-64 lg:h-52 flex items-center justify-center overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl h-64 lg:h-52 overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300">
+                  <video
+                    className="w-full h-full object-cover"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  >
+                    <source src="https://res.cloudinary.com/dksrfhwlx/video/upload/v1751939972/Lifely_Notes1_qnxl3h.mp4" type="video/mp4" />
+                  </video>
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <div className="text-center text-white relative z-10">
-                    <svg
-                      className="w-16 h-16 mx-auto mb-4 opacity-60 transition-all duration-500 group-hover/video:opacity-100 group-hover/video:scale-110 group-hover/video:text-lifeos-primary"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z"></path>
-                    </svg>
-                    <p className="text-lg font-medium opacity-60 transition-all duration-300 group-hover/video:opacity-100">
-                      AI Notes Demo
-                    </p>
-                    <p className="text-sm opacity-60 mt-2 transition-all duration-300 group-hover/video:opacity-80">
-                      Try it in demo →
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
