@@ -1358,10 +1358,10 @@ export default function Index() {
                 </svg>
               </button>
             </div>
-            <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden relative">
+            <div className="rounded-lg overflow-hidden">
               <div style={{ padding: '64.06% 0 0 0', position: 'relative' }}>
                 <iframe
-                  src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1"
+                  src="https://player.vimeo.com/video/1099560675?background=1&autoplay=1&loop=1&muted=1"
                   style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                   allowFullScreen
