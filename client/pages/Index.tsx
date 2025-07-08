@@ -1359,17 +1359,14 @@ export default function Index() {
               </button>
             </div>
             <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
-              <video
-                className="w-full h-full object-cover"
-                autoPlay
-                loop
-                muted
-                playsInline
-                controls
-              >
-                <source src="/assets/Lifely_Official_Demo.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/vtS6pP_g4-c?autoplay=1&mute=1&loop=1&playlist=vtS6pP_g4-c&controls=1"
+                title="Lifely Official Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                style={{ border: 'none' }}
+              />
             </div>
           </div>
         </div>
