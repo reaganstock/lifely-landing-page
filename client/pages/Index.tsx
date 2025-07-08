@@ -398,24 +398,17 @@ export default function Index() {
               </div>
 
               {/* Hero Demo Video */}
-              <div id="demo" className="relative bg-white/40 backdrop-blur-sm rounded-3xl border border-white/20 p-8 lg:p-6 shadow-2xl max-w-5xl mx-auto group hover:shadow-3xl hover:scale-[1.02] transition-all duration-500 cursor-pointer">
-                <div className="aspect-video bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl flex items-center justify-center overflow-hidden relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  <div className="text-center text-white relative z-10">
-                    <svg
-                      className="w-20 h-20 mx-auto mb-4 opacity-60 transition-all duration-500 group-hover:opacity-100 group-hover:scale-110 group-hover:text-lifeos-primary"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z"></path>
-                    </svg>
-                    <p className="text-lg font-medium opacity-60 transition-all duration-300 group-hover:opacity-100 group-hover:text-lifeos-primary">
-                      See Lifely in Action
-                    </p>
-                    <p className="text-sm opacity-40 mt-2 transition-all duration-300 group-hover:opacity-80">
-                      Watch how AI transforms your productivity
-                    </p>
-                  </div>
+              <div id="demo" className="relative bg-white/40 backdrop-blur-sm rounded-3xl border border-white/20 p-8 lg:p-6 shadow-2xl max-w-5xl mx-auto group hover:shadow-3xl hover:scale-[1.02] transition-all duration-500">
+                <div className="aspect-video bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/vtS6pP_g4-c?autoplay=1&mute=1&loop=1&playlist=vtS6pP_g4-c&controls=1"
+                    title="Lifely Official Demo"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    style={{ border: 'none' }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 </div>
               </div>
 
