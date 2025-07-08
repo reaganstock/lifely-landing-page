@@ -1360,13 +1360,14 @@ export default function Index() {
             </div>
             <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
               <iframe
-                src="https://player.vimeo.com/video/1099560675?h=abcdef1234&autoplay=1&loop=1&muted=1"
+                src="https://player.vimeo.com/video/1099560675?autoplay=1&loop=1&muted=1&autopause=0"
                 width="100%"
                 height="100%"
                 style={{ border: 'none' }}
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
                 className="w-full h-full"
+                title="Lifely Demo Video"
               ></iframe>
             </div>
           </div>
