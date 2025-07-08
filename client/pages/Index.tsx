@@ -400,14 +400,15 @@ export default function Index() {
               {/* Hero Demo Video */}
               <div id="demo" className="relative bg-white/40 backdrop-blur-sm rounded-3xl border border-white/20 p-8 lg:p-6 shadow-2xl max-w-5xl mx-auto group hover:shadow-3xl hover:scale-[1.02] transition-all duration-500">
                 <div className="aspect-video bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/vtS6pP_g4-c?autoplay=1&mute=1&loop=1&playlist=vtS6pP_g4-c&controls=1"
-                    title="Lifely Official Demo"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    style={{ border: 'none' }}
-                  />
+                  <div style={{ padding: '64.06% 0 0 0', position: 'relative' }}>
+                    <iframe
+                      src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479"
+                      style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                      allowFullScreen
+                      title="Lifely_Official_Demo"
+                    />
+                  </div>
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 </div>
               </div>
