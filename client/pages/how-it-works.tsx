@@ -5,9 +5,9 @@ export default function HowItWorks() {
 
   const steps = [
     {
-      title: "Voice Your Intent",
-      description: "Simply speak or type what you want to accomplish. No complex commands needed.",
-      details: "Lifely understands natural language, so you can say things like 'Schedule 30 basketball training sessions starting next week' or 'Create a note about today's meeting with Sarah'.",
+      title: "Just Say What You Want",
+      description: "Speak naturally like you're talking to your best assistant. Zero learning curve.",
+      details: "No prompts to memorize, no syntax to learn. Just say 'Block out 2 hours every Tuesday for deep work' or 'Remind me to call mom every Sunday' and watch it happen instantly.",
       icon: (
         <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/>
@@ -16,9 +16,9 @@ export default function HowItWorks() {
       color: "from-blue-500 to-lifeos-primary"
     },
     {
-      title: "AI Understands Context",
-      description: "Our AI analyzes your request, understands the context, and determines the best actions.",
-      details: "Lifely considers your existing calendar, preferences, goals, and patterns to provide intelligent suggestions and automations that fit your lifestyle.",
+      title: "AI Reads Your Mind",
+      description: "Our breakthrough AI understands not just what you said, but what you actually meant.",
+      details: "Lifely analyzes your calendar patterns, energy levels, priorities, and goals to make decisions that feel like they came from your future self - the organized version of you.",
       icon: (
         <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
@@ -27,9 +27,9 @@ export default function HowItWorks() {
       color: "from-lifeos-primary to-lifeos-secondary"
     },
     {
-      title: "Smart Execution",
-      description: "Watch as Lifely automatically creates, schedules, and organizes everything for you.",
-      details: "Tasks are created, calendar events are scheduled, notes are organized into the right categories, and routines are established - all without you lifting a finger.",
+      title: "It Just Happens",
+      description: "No clicking, no dragging, no organizing. Everything appears exactly where it should be.",
+      details: "Your calendar fills with perfectly timed blocks, your notes organize themselves by priority, recurring tasks set themselves up automatically. It's like having a personal chief of staff who never sleeps.",
       icon: (
         <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
@@ -38,9 +38,9 @@ export default function HowItWorks() {
       color: "from-lifeos-secondary to-purple-600"
     },
     {
-      title: "Continuous Learning",
-      description: "Lifely learns from your patterns and preferences to get smarter over time.",
-      details: "The more you use Lifely, the better it becomes at predicting your needs, suggesting optimizations, and automating routine tasks without being asked.",
+      title: "Gets Smarter Daily",
+      description: "Every interaction teaches Lifely to anticipate your needs before you even ask.",
+      details: "After 2 weeks, Lifely starts suggesting schedule optimizations. After a month, it's automatically blocking focus time when you're most productive. After 3 months, it feels like mind reading.",
       icon: (
         <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
           <path d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2.5 10c.83 0 1.5-.67 1.5-1.5v-16c0-.83-.67-1.5-1.5-1.5h-15c-.83 0-1.5.67-1.5 1.5v16c0 .83.67 1.5 1.5 1.5h15z"/>
@@ -52,8 +52,8 @@ export default function HowItWorks() {
 
   const features = [
     {
-      title: "Natural Language Processing",
-      description: "Speak or type naturally - no command syntax to memorize",
+      title: "Zero Learning Curve",
+      description: "Talk to Lifely exactly like you'd talk to your most competent colleague",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/>
@@ -61,8 +61,8 @@ export default function HowItWorks() {
       )
     },
     {
-      title: "Cross-Platform Sync",
-      description: "All your data syncs seamlessly across all devices",
+      title: "Works Everywhere",
+      description: "Your organized life follows you - phone, laptop, tablet, smartwatch",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
@@ -70,8 +70,8 @@ export default function HowItWorks() {
       )
     },
     {
-      title: "Smart Integrations",
-      description: "Connect with tools you already use daily",
+      title: "Plays Nice With Everything",
+      description: "Connects to Google Calendar, Slack, Notion, and 50+ apps you already love",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
@@ -79,8 +79,8 @@ export default function HowItWorks() {
       )
     },
     {
-      title: "Privacy First",
-      description: "Your data stays secure with end-to-end encryption",
+      title: "Fort Knox Secure",
+      description: "Military-grade encryption. Your data never touches our servers unencrypted",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
@@ -130,14 +130,14 @@ export default function HowItWorks() {
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold text-lifeos-dark mb-8">
-            AI That Actually{" "}
+            The First AI That Actually{" "}
             <span className="bg-gradient-to-r from-lifeos-primary to-lifeos-secondary bg-clip-text text-transparent">
-              Understands You
+              Gets You Done
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-lifeos-gray-400 mb-12 leading-relaxed">
-            Forget complex workflows and endless clicking. Lifely works the way you think - through natural conversation and intelligent automation.
+            Stop fighting your productivity tools. Start getting 3x more done with AI that thinks like you do - no prompts, no training, just results.
           </p>
         </div>
       </section>
@@ -147,10 +147,10 @@ export default function HowItWorks() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-lifeos-dark mb-6">
-              Four Simple Steps to Transform Your Productivity
+              From Chaos to Clarity in 4 Steps
             </h2>
             <p className="text-xl text-lifeos-gray-400 max-w-3xl mx-auto">
-              Watch how Lifely turns your thoughts into organized action in seconds
+              Watch how 30,000+ busy professionals went from overwhelmed to organized using Lifely's breakthrough AI system
             </p>
           </div>
 
@@ -199,10 +199,10 @@ export default function HowItWorks() {
               <div className="bg-white/10 border border-white/20 rounded-xl p-4">
                 <p className="text-sm text-white/60 mb-2">Example:</p>
                 <p className="text-white font-medium">
-                  {activeStep === 0 && '"Schedule 30 basketball training sessions starting next week"'}
-                  {activeStep === 1 && 'AI analyzes your calendar, finds optimal times, and considers your fitness goals'}
-                  {activeStep === 2 && '30 calendar events created, reminders set, progress tracking enabled'}
-                  {activeStep === 3 && 'AI learns you prefer morning workouts and suggests earlier times next month'}
+                  {activeStep === 0 && '"Block out 2 hours every Tuesday for deep work"'}
+                  {activeStep === 1 && 'AI notices you\'re most focused at 9am and have 3 important projects due this month'}
+                  {activeStep === 2 && '8 recurring calendar blocks created, phone set to do-not-disturb, workspace optimized'}
+                  {activeStep === 3 && 'After 2 weeks, Lifely automatically suggests extending sessions to 2.5 hours based on your productivity patterns'}
                 </p>
               </div>
             </div>
@@ -215,10 +215,10 @@ export default function HowItWorks() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-lifeos-dark mb-6">
-              Built for Real People, Real Life
+              Why 95% of Our Users Say "This Changed Everything"
             </h2>
             <p className="text-xl text-lifeos-gray-400 max-w-3xl mx-auto">
-              Every feature is designed around how you naturally think and work
+              Built by productivity obsessives who got tired of apps that promised everything but delivered complicated workflows
             </p>
           </div>
 
@@ -243,10 +243,10 @@ export default function HowItWorks() {
       <section className="py-20 bg-lifeos-dark">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            See It In Action
+            See Why Everyone's Switching to Lifely
           </h2>
           <p className="text-xl text-white/80 mb-12">
-            Watch how Lifely transforms a simple voice command into organized productivity
+            Watch a real user go from scattered chaos to laser focus in under 60 seconds
           </p>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 p-8 mb-12">
@@ -267,13 +267,13 @@ export default function HowItWorks() {
               href="/signup"
               className="bg-gradient-to-r from-lifeos-primary to-lifeos-secondary text-white py-4 px-8 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
-              Get Pre-Beta Premiums
+              Start Your 14-Day Free Trial
             </a>
             <a
               href="/sales"
               className="border border-white/20 text-white py-4 px-8 rounded-xl font-semibold transition-all duration-300 hover:bg-white/10 hover:scale-105"
             >
-              Schedule Demo
+              Book a Personal Demo
             </a>
           </div>
         </div>
