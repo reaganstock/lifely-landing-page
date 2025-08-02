@@ -28,6 +28,13 @@ export default function Index() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeFilter, setActiveFilter] = useState("All");
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [heroVersion, setHeroVersion] = useState(1);
+
+  // Randomly assign hero version on component mount
+  useEffect(() => {
+    const randomVersion = Math.floor(Math.random() * 3) + 1; // Random number 1-3
+    setHeroVersion(randomVersion);
+  }, []);
 
   // Integration data with categories
   const integrations = [
@@ -381,17 +388,50 @@ export default function Index() {
           {/* Hero Section */}
           <div className="max-w-7xl mx-auto px-6 lg:px-4 py-32 lg:py-24 relative">
             <div className="text-center max-w-5xl mx-auto mb-16">
-              <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-lifeos-dark leading-tight mb-8">
-                Your AI life assistant
-                <br />
-                that actually <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">works.</span>
-              </h1>
+              {/* Split Test Versions */}
+              {/* VERSION 1 */}
+              {heroVersion === 1 && (
+                <div className="version-1">
+                  <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-lifeos-dark leading-tight mb-8">
+                    The AI Agent that
+                    <br />
+                    <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">builds</span> your life.
+                  </h1>
+                  <p className="text-lg md:text-xl text-lifeos-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Talk to your apps. Get things done. Stay organized.
+                  </p>
+                </div>
+              )}
 
-              <p className="text-lg md:text-xl text-lifeos-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-                Talk to your apps. Get things done. Stay organized.
-                <br />
-                Finally, an AI that gets your actual life.
-              </p>
+              {/* VERSION 2 */}
+              {heroVersion === 2 && (
+                <div className="version-2">
+                  <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-lifeos-dark leading-tight mb-8">
+                    <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Vibespeak</span> with your
+                    <br />
+                    personal productivity agent.
+                  </h1>
+                  <p className="text-lg md:text-xl text-lifeos-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Natural conversation that controls your calendar, tasks, notes, and goals.
+                  </p>
+                </div>
+              )}
+
+              {/* VERSION 3 */}
+              {heroVersion === 3 && (
+                <div className="version-3">
+                  <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-lifeos-dark leading-tight mb-8">
+                    The AI Agent that
+                    <br />
+                    <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">vibecodes</span> your life.
+                  </h1>
+                  <p className="text-lg md:text-xl text-lifeos-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Talk to your apps. Get things done. Stay organized.
+                    <br />
+                    Finally, an AI that builds your life.
+                  </p>
+                </div>
+              )}
 
               {/* Primary CTA - Blue Theme */}
               <div className="mb-16 space-y-4">
@@ -417,7 +457,7 @@ export default function Index() {
               </div>
 
               {/* Hero Demo Video - Prominent 2025 Style */}
-              <div id="demo" className="relative mb-12">
+              <div id="demo" className="relative mb-32">
                 {/* Video Container with Modern Glass Effect */}
                 <div className="relative bg-gradient-to-br from-white/20 via-white/10 to-white/5 backdrop-blur-2xl rounded-3xl border border-white/30 shadow-2xl max-w-6xl mx-auto group hover:shadow-4xl hover:scale-[1.01] transition-all duration-700 overflow-hidden">
                   {/* Gradient Border Effect */}
@@ -433,7 +473,7 @@ export default function Index() {
                     {/* Video */}
                     <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                       <iframe
-                        src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1"
+                        src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=0&controls=1&title=0&byline=0&portrait=0"
                         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                         allowFullScreen
@@ -445,14 +485,22 @@ export default function Index() {
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-transparent to-indigo-600/10 opacity-0 group-hover:opacity-100 transition-all duration-700 pointer-events-none"></div>
                   </div>
                   
-                  {/* Floating Action Button */}
-                  <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2">
-                    <button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-full font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-110 hover:-translate-y-1 flex items-center gap-2">
-                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  {/* Floating Action Button - More visible and below the video */}
+                  <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 z-30">
+                    <a 
+                      href="https://player.vimeo.com/video/1099560675"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-110 hover:-translate-y-2 flex items-center gap-3 border-2 border-white/20"
+                    >
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z"/>
                       </svg>
                       Watch Full Demo
-                    </button>
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </div>
