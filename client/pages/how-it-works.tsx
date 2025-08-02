@@ -267,7 +267,7 @@ export default function HowItWorks() {
               href="/signup"
               className="bg-gradient-to-r from-lifeos-primary to-lifeos-secondary text-white py-4 px-8 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
-              Get Early Access
+              Get Pre-Beta Premiums
             </a>
             <a
               href="/sales"
