@@ -354,33 +354,44 @@ export default function Index() {
         </div>
 
         <div className="relative z-10">
-          {/* Animated Background Elements */}
+          {/* Modern Gradient Background with 2025 Trends */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            {/* Floating Geometric Shapes */}
-            <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-br from-lifeos-primary/20 to-lifeos-secondary/20 rounded-full blur-xl animate-float" style={{animationDelay: '0s'}}></div>
-            <div className="absolute top-40 right-20 w-16 h-16 bg-gradient-to-br from-lifeos-secondary/30 to-purple-400/30 rounded-lg blur-lg animate-pulse" style={{animationDelay: '1s', animationDuration: '6s'}}></div>
-            <div className="absolute bottom-32 left-1/4 w-12 h-12 bg-gradient-to-br from-lifeos-primary/25 to-blue-400/25 rounded-full blur-md animate-ping" style={{animationDelay: '2s', animationDuration: '8s'}}></div>
-            <div className="absolute top-1/3 right-1/3 w-24 h-24 bg-gradient-to-br from-purple-400/20 to-lifeos-secondary/20 rounded-xl blur-lg animate-float-delayed"></div>
-            <div className="absolute bottom-20 right-10 w-14 h-14 bg-gradient-to-br from-lifeos-primary/30 to-pink-400/30 rounded-full blur-sm animate-bounce" style={{animationDelay: '4s', animationDuration: '7s'}}></div>
-            <div className="absolute top-60 left-1/3 w-18 h-18 bg-gradient-to-br from-cyan-400/25 to-lifeos-primary/25 rounded-lg blur-lg animate-float" style={{animationDelay: '5s'}}></div>
-            <div className="absolute bottom-40 left-20 w-10 h-10 bg-gradient-to-br from-lifeos-secondary/35 to-violet-400/35 rounded-full blur-md animate-pulse" style={{animationDelay: '6s', animationDuration: '4s'}}></div>
+            {/* Large Dynamic Gradient Orbs - 2025 Style */}
+            <div className="absolute -top-32 -left-32 w-[600px] h-[600px] bg-gradient-to-r from-violet-500/20 via-purple-500/15 to-fuchsia-500/10 rounded-full blur-3xl animate-pulse" style={{animationDuration: '8s'}}></div>
+            <div className="absolute -top-16 -right-16 w-[500px] h-[500px] bg-gradient-to-l from-cyan-400/15 via-blue-500/10 to-indigo-500/5 rounded-full blur-3xl animate-pulse" style={{animationDuration: '10s', animationDelay: '2s'}}></div>
+            <div className="absolute -bottom-32 left-1/2 transform -translate-x-1/2 w-[700px] h-[400px] bg-gradient-to-t from-rose-400/10 via-pink-500/8 to-transparent rounded-full blur-3xl animate-pulse" style={{animationDuration: '12s', animationDelay: '4s'}}></div>
             
-            {/* Large Animated Gradient Orbs */}
-            <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-96 h-96 bg-gradient-radial from-lifeos-primary/10 via-lifeos-secondary/5 to-transparent rounded-full blur-3xl animate-spin" style={{animationDuration: '20s'}}></div>
-            <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gradient-radial from-lifeos-secondary/15 via-purple-400/8 to-transparent rounded-full blur-2xl animate-pulse" style={{animationDuration: '15s'}}></div>
+            {/* Mesh Gradient Overlay - Modern 2025 Technique */}
+            <div className="absolute inset-0 bg-gradient-to-br from-violet-500/5 via-transparent to-cyan-500/5 opacity-60"></div>
+            <div className="absolute inset-0 bg-gradient-to-tl from-fuchsia-500/3 via-transparent to-blue-500/3 opacity-40"></div>
             
-            {/* Subtle Moving Lines */}
-            <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-lifeos-primary/30 to-transparent animate-pulse" style={{animationDuration: '3s'}}></div>
-            <div className="absolute bottom-0 right-0 w-full h-px bg-gradient-to-l from-transparent via-lifeos-secondary/30 to-transparent animate-pulse" style={{animationDuration: '4s', animationDelay: '1s'}}></div>
+            {/* Floating Geometric Elements with Modern Colors */}
+            <div className="absolute top-1/4 left-16 w-16 h-16 bg-gradient-to-br from-violet-400/30 to-purple-600/20 rounded-2xl blur-sm animate-float rotate-12" style={{animationDelay: '0s'}}></div>
+            <div className="absolute top-1/3 right-20 w-20 h-20 bg-gradient-to-br from-cyan-400/25 to-blue-600/15 rounded-full blur-md animate-bounce" style={{animationDelay: '1s', animationDuration: '8s'}}></div>
+            <div className="absolute bottom-1/3 left-1/4 w-12 h-12 bg-gradient-to-br from-rose-400/30 to-pink-600/20 rounded-xl blur-sm animate-ping" style={{animationDelay: '2s', animationDuration: '6s'}}></div>
+            <div className="absolute top-1/2 right-1/3 w-24 h-24 bg-gradient-to-br from-indigo-400/20 to-violet-600/15 rounded-3xl blur-lg animate-float-delayed rotate-45"></div>
+            
+            {/* Dynamic Light Rays */}
+            <div className="absolute top-0 left-1/4 w-px h-96 bg-gradient-to-b from-violet-400/40 via-purple-500/20 to-transparent animate-pulse" style={{animationDuration: '4s'}}></div>
+            <div className="absolute top-0 right-1/3 w-px h-80 bg-gradient-to-b from-cyan-400/40 via-blue-500/20 to-transparent animate-pulse" style={{animationDuration: '5s', animationDelay: '1s'}}></div>
           </div>
 
           {/* Hero Section */}
           <div className="max-w-7xl mx-auto px-6 lg:px-4 py-32 lg:py-24 relative">
             <div className="text-center max-w-5xl mx-auto mb-16">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-lifeos-dark leading-tight mb-8">
-                Your AI life assistant
-                <br />
-                that actually works.
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-violet-800 to-gray-900 leading-none mb-8 group cursor-default tracking-tight">
+                <div className="relative inline-block">
+                  <span className="inline-block transition-all duration-700 hover:scale-110 hover:-translate-y-3 mr-4 hover:bg-gradient-to-r hover:from-violet-600 hover:to-fuchsia-600 hover:bg-clip-text hover:text-transparent hover:drop-shadow-2xl">Your</span>
+                  <span className="inline-block transition-all duration-700 hover:scale-110 hover:-translate-y-3 mr-4 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-600 hover:bg-clip-text hover:text-transparent">AI</span>
+                  <span className="inline-block transition-all duration-700 hover:scale-110 hover:-translate-y-3 mr-4 hover:bg-gradient-to-r hover:from-rose-500 hover:to-pink-600 hover:bg-clip-text hover:text-transparent">life</span>
+                  <br />
+                  <span className="inline-block transition-all duration-700 hover:scale-110 hover:-translate-y-3 mr-4 hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600 hover:bg-clip-text hover:text-transparent">assistant</span>
+                  <span className="inline-block transition-all duration-700 hover:scale-110 hover:-translate-y-3 mr-4 hover:bg-gradient-to-r hover:from-emerald-500 hover:to-teal-600 hover:bg-clip-text hover:text-transparent">that</span>
+                  <span className="inline-block transition-all duration-700 hover:scale-110 hover:-translate-y-3 hover:bg-gradient-to-r hover:from-orange-500 hover:to-red-600 hover:bg-clip-text hover:text-transparent">works.</span>
+                  
+                  {/* Modern glow effect */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-violet-600/20 via-transparent to-fuchsia-600/20 blur-3xl opacity-50 -z-10"></div>
+                </div>
               </h1>
 
               <p className="text-lg md:text-xl text-lifeos-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
@@ -389,53 +400,105 @@ export default function Index() {
                 Finally, an AI that understands your actual life.
               </p>
 
-              {/* Primary CTA */}
-              <div className="mb-16">
-                <a href={`${getAppUrl()}/auth`} className="bg-gradient-to-r from-lifeos-primary to-lifeos-secondary text-white px-12 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-xl hover:shadow-2xl hover:shadow-lifeos-primary/25 active:scale-105 inline-block">
-                  Get Started Free
-                </a>
-                <p className="text-sm text-lifeos-gray-400 mt-3">Free to use, no credit card required</p>
+              {/* Primary CTA - Modern 2025 Design */}
+              <div className="mb-16 space-y-4">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <a href={`${getAppUrl()}/auth`} className="group relative bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 shadow-2xl hover:shadow-violet-500/25 active:scale-95 inline-flex items-center gap-3">
+                    <span className="relative z-10">Get Started Free</span>
+                    <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center group-hover:rotate-45 transition-transform duration-300">
+                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/>
+                      </svg>
+                    </div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-600 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </a>
+                  
+                  <a href="#demo" className="group bg-white/10 backdrop-blur-sm border border-white/20 text-gray-800 px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl inline-flex items-center gap-2">
+                    <svg className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    Watch Demo
+                  </a>
+                </div>
+                <p className="text-sm text-lifeos-gray-400">Free to use, no credit card required • 30-day trial</p>
               </div>
 
-              {/* Hero Demo Video */}
-              <div id="demo" className="relative bg-white/40 backdrop-blur-sm rounded-3xl border border-white/20 p-8 lg:p-6 shadow-2xl max-w-5xl mx-auto group hover:shadow-3xl hover:scale-[1.02] transition-all duration-500">
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative">
-                  <div style={{ padding: '64.06% 0 0 0', position: 'relative' }}>
-                    <iframe
-                      src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1"
-                      style={{ position: 'absolute', top: '-5%', left: 0, width: '100%', height: '110%', border: 'none' }}
-                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                      allowFullScreen
-                      title="Lifely_Official_Demo"
-                    />
+              {/* Hero Demo Video - Prominent 2025 Style */}
+              <div id="demo" className="relative mb-12">
+                {/* Video Container with Modern Glass Effect */}
+                <div className="relative bg-gradient-to-br from-white/20 via-white/10 to-white/5 backdrop-blur-2xl rounded-3xl border border-white/30 shadow-2xl max-w-6xl mx-auto group hover:shadow-4xl hover:scale-[1.01] transition-all duration-700 overflow-hidden">
+                  {/* Gradient Border Effect */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-violet-500/20 via-cyan-500/20 to-fuchsia-500/20 rounded-3xl blur-sm opacity-60 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  
+                  {/* Main Video Container */}
+                  <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-black rounded-3xl m-2 overflow-hidden">
+                    {/* Video Badge */}
+                    <div className="absolute top-4 left-4 z-10 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg backdrop-blur-sm">
+                      ✨ Live Demo
+                    </div>
+                    
+                    {/* Video */}
+                    <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+                      <iframe
+                        src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1"
+                        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        allowFullScreen
+                        title="Lifely_Official_Demo"
+                      />
+                    </div>
+                    
+                    {/* Hover Overlay with Modern Gradient */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-violet-600/10 via-transparent to-cyan-600/10 opacity-0 group-hover:opacity-100 transition-all duration-700 pointer-events-none"></div>
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                  
+                  {/* Floating Action Button */}
+                  <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2">
+                    <button className="bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white px-6 py-3 rounded-full font-semibold shadow-2xl hover:shadow-violet-500/25 transition-all duration-300 hover:scale-110 hover:-translate-y-1 flex items-center gap-2">
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                      Watch Full Demo
+                    </button>
+                  </div>
                 </div>
               </div>
 
-              <div className="grid grid-cols-3 gap-12 text-center mb-16">
-                <div className="group cursor-pointer hover:scale-110 transition-all duration-300">
-                  <div className="text-5xl md:text-6xl font-black text-lifeos-dark mb-2 transition-all duration-300 group-hover:text-lifeos-primary group-hover:scale-105">
-                    40+
-                  </div>
-                  <div className="text-lifeos-gray-400 text-lg font-medium transition-all duration-300 group-hover:text-lifeos-dark">
-                    AI Voices
-                  </div>
-                </div>
-                <div className="group cursor-pointer hover:scale-110 transition-all duration-300">
-                  <div className="text-5xl md:text-6xl font-black text-lifeos-dark mb-2 transition-all duration-300 group-hover:text-lifeos-secondary group-hover:scale-105">
-                    9
-                  </div>
-                  <div className="text-lifeos-gray-400 text-lg font-medium transition-all duration-300 group-hover:text-lifeos-dark">
-                    Integrations
+              {/* Stats Section - Modern 2025 Cards */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 max-w-4xl mx-auto">
+                <div className="group relative bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-6 text-center hover:scale-105 transition-all duration-500 cursor-pointer overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-violet-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="relative z-10">
+                    <div className="text-4xl md:text-5xl font-black bg-gradient-to-r from-violet-600 to-purple-600 bg-clip-text text-transparent mb-2 transition-all duration-300 group-hover:scale-110">
+                      40+
+                    </div>
+                    <div className="text-gray-600 text-sm font-semibold uppercase tracking-wider transition-all duration-300 group-hover:text-violet-600">
+                      AI Voices
+                    </div>
                   </div>
                 </div>
-                <div className="group cursor-pointer hover:scale-110 transition-all duration-300">
-                  <div className="text-5xl md:text-6xl font-black text-lifeos-dark mb-2 transition-all duration-300 group-hover:text-lifeos-primary group-hover:scale-105">
-                    5
+                
+                <div className="group relative bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-6 text-center hover:scale-105 transition-all duration-500 cursor-pointer overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="relative z-10">
+                    <div className="text-4xl md:text-5xl font-black bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent mb-2 transition-all duration-300 group-hover:scale-110">
+                      9
+                    </div>
+                    <div className="text-gray-600 text-sm font-semibold uppercase tracking-wider transition-all duration-300 group-hover:text-cyan-600">
+                      Integrations
+                    </div>
                   </div>
-                  <div className="text-lifeos-gray-400 text-lg font-medium transition-all duration-300 group-hover:text-lifeos-dark">
-                    AI Models
+                </div>
+                
+                <div className="group relative bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-6 text-center hover:scale-105 transition-all duration-500 cursor-pointer overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-fuchsia-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="relative z-10">
+                    <div className="text-4xl md:text-5xl font-black bg-gradient-to-r from-fuchsia-500 to-pink-600 bg-clip-text text-transparent mb-2 transition-all duration-300 group-hover:scale-110">
+                      5
+                    </div>
+                    <div className="text-gray-600 text-sm font-semibold uppercase tracking-wider transition-all duration-300 group-hover:text-fuchsia-600">
+                      AI Models
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1315,16 +1378,6 @@ export default function Index() {
           </div>
         </footer>
 
-        {/* Bolt.new Badge */}
-        <div className="fixed bottom-4 right-4 z-50">
-          <a href="https://bolt.new/?rid=os72mi" target="_blank" rel="noopener noreferrer" 
-             className="block transition-all duration-300 hover:shadow-2xl">
-            <img src="https://storage.bolt.army/white_circle_360x360.png" 
-                 alt="Built with Bolt.new badge" 
-                 className="w-16 h-16 md:w-20 md:h-20 rounded-full shadow-lg bolt-badge bolt-badge-intro"
-                 onAnimationEnd={(e) => (e.target as HTMLElement).classList.add('animated')} />
-          </a>
-        </div>
       </div>
 
       {/* Demo Modal */}
