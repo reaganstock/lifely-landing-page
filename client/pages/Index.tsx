@@ -382,13 +382,15 @@ export default function Index() {
           <div className="max-w-7xl mx-auto px-6 lg:px-4 py-32 lg:py-24 relative">
             <div className="text-center max-w-5xl mx-auto mb-16">
               <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-lifeos-dark leading-tight mb-8">
-                The AI Assistant
+                Your AI life assistant
                 <br />
-                for your <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">life.</span>
+                that actually <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">works.</span>
               </h1>
 
               <p className="text-lg md:text-xl text-lifeos-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-                The single chat interface that controls your entire personal productivity stack.
+                Talk to your apps. Get things done. Stay organized.
+                <br />
+                Finally, an AI that gets your actual life.
               </p>
 
               {/* Primary CTA - Blue Theme */}
