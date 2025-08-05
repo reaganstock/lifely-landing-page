@@ -654,15 +654,13 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
-                  <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                  >
-                    <source src="https://res.cloudinary.com/dksrfhwlx/video/upload/v1751951376/LifeCategories_pqgsrj.mp4" type="video/mp4" />
-                  </video>
+                  <iframe
+                    src="https://player.vimeo.com/video/1107535099?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1&controls=0"
+                    className="w-full h-full"
+                    style={{ border: 'none' }}
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    title="Life Categories"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
               </div>
@@ -694,15 +692,13 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
-                  <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                  >
-                    <source src="https://res.cloudinary.com/dksrfhwlx/video/upload/v1751939948/LifelyCalendar_i1jjuo.mp4" type="video/mp4" />
-                  </video>
+                  <iframe
+                    src="https://player.vimeo.com/video/1107537014?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1&controls=0"
+                    className="w-full h-full"
+                    style={{ border: 'none' }}
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    title="Smart Calendar"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
               </div>
@@ -734,15 +730,13 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
-                  <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                  >
-                    <source src="https://res.cloudinary.com/dksrfhwlx/video/upload/v1751939972/Lifely_Notes1_qnxl3h.mp4" type="video/mp4" />
-                  </video>
+                  <iframe
+                    src="https://player.vimeo.com/video/1107535283?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1&controls=0"
+                    className="w-full h-full"
+                    style={{ border: 'none' }}
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    title="Notes"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
               </div>
@@ -774,15 +768,13 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
-                  <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                  >
-                    <source src="https://res.cloudinary.com/dksrfhwlx/video/upload/v1751948988/GlobalRoutines_gtuswe.mp4" type="video/mp4" />
-                  </video>
+                  <iframe
+                    src="https://player.vimeo.com/video/1107535374?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1&controls=0"
+                    className="w-full h-full"
+                    style={{ border: 'none' }}
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    title="Goals and Routines"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
               </div>
