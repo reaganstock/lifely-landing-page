@@ -1015,7 +1015,7 @@ export default function Index() {
                 <div className="prose prose-lg max-w-none">
                   <p className="text-xl text-lifeos-gray-400 leading-relaxed mb-6">
                     I've always wanted to be a successful entrepreneur, but more
-                    than that, I wanted to be successful at life. That's why I
+                    than that, I wanted to thrive in all aspects of life. That's why I
                     built Lifely.
                   </p>
                   <p className="text-xl text-lifeos-gray-400 leading-relaxed mb-8">
