@@ -218,7 +218,7 @@ export default function Index() {
             <div className="flex items-center gap-3">
               {/* Desktop CTA */}
               <div className="hidden md:flex items-center gap-3">
-                <a href="https://app.lifely.dev/auth" className="px-4 py-2 text-sm text-gray-600 hover:text-black transition-all duration-300 hover:bg-gradient-to-r hover:from-gray-50 hover:to-gray-100 rounded-lg hover:scale-105 hover:shadow-sm">
+                <a href={`${getAppUrl()}/auth`} className="px-4 py-2 text-sm text-gray-600 hover:text-black transition-all duration-300 hover:bg-gradient-to-r hover:from-gray-50 hover:to-gray-100 rounded-lg hover:scale-105 hover:shadow-sm">
                   Sign In
                 </a>
                 <a href={`${getAppUrl()}/auth`} className="px-6 py-2 bg-black text-white text-sm font-medium rounded-full hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:-translate-y-0.5">
@@ -279,7 +279,7 @@ export default function Index() {
                 Pricing
               </Link>
               <div className="pt-4 space-y-3 border-t border-gray-200/50">
-                <a href="https://app.lifely.dev/auth" className="block w-full px-4 py-3 text-left text-gray-600 hover:text-lifeos-primary hover:bg-gradient-to-r hover:from-lifeos-primary/10 hover:to-lifeos-secondary/10 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-sm">
+                <a href={`${getAppUrl()}/auth`} className="block w-full px-4 py-3 text-left text-gray-600 hover:text-lifeos-primary hover:bg-gradient-to-r hover:from-lifeos-primary/10 hover:to-lifeos-secondary/10 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-sm">
                   Sign In
                 </a>
                 <a href={`${getAppUrl()}/auth`} className="block w-full px-6 py-3 bg-black text-white font-medium rounded-lg hover:bg-gradient-to-r hover:from-lifeos-primary hover:to-lifeos-secondary transition-all duration-300 hover:scale-105 hover:shadow-lg hover:-translate-y-0.5">
@@ -1260,7 +1260,7 @@ export default function Index() {
         </div>
 
         {/* Footer */}
-        <footer className="bg-black text-white py-16">
+        <footer className="bg-black text-white py-16 relative z-10">
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
               <div>
@@ -1305,7 +1305,7 @@ export default function Index() {
                   </li>
                   <li>
                     <a
-                      href="https://app.lifely.dev/auth"
+                      href={`${getAppUrl()}/auth`}
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
                     >
                       Login
