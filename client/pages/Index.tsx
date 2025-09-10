@@ -473,7 +473,7 @@ export default function Index() {
                     {/* Video */}
                     <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                       <iframe
-                        src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=0&controls=1&title=0&byline=0&portrait=0"
+                        src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=0&controls=1&title=0&byline=0&portrait=0&dnt=1&transparent=0"
                         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                         allowFullScreen
@@ -488,7 +488,7 @@ export default function Index() {
                   {/* Floating Action Button - More visible and below the video */}
                   <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 z-30">
                     <a 
-                      href="https://player.vimeo.com/video/1099560675"
+                      href="https://player.vimeo.com/video/1099560675?dnt=1&transparent=0"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-110 hover:-translate-y-2 flex items-center gap-3 border-2 border-white/20"
@@ -653,13 +653,13 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
-                  <iframe
-                    src="https://player.vimeo.com/video/1107535099?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1&controls=0"
-                    className="w-full h-full"
-                    style={{ border: 'none' }}
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    title="Life Categories"
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '66.5%', position: 'relative' }}>
+                  <iframe 
+                    src="https://player.vimeo.com/video/1107535099?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    title="LifeCategories"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
@@ -692,12 +692,13 @@ export default function Index() {
                   </div>
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
-                  <iframe
-                    src="https://player.vimeo.com/video/1107537014?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1&controls=0"
+                  <iframe 
+                    src="https://player.vimeo.com/video/1107537014?badge=0&autopause=0&player_id=0&app_id=58479" 
                     className="w-full h-full"
                     style={{ border: 'none' }}
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    title="Smart Calendar"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    title="Lifely"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
@@ -729,13 +730,13 @@ export default function Index() {
                     <span className="bg-lifeos-primary/10 text-lifeos-primary px-3 py-1 rounded-full text-xs font-medium">Universal Import</span>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
-                  <iframe
-                    src="https://player.vimeo.com/video/1107535283?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1&controls=0"
-                    className="w-full h-full"
-                    style={{ border: 'none' }}
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    title="Notes"
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '62.65%', position: 'relative' }}>
+                  <iframe 
+                    src="https://player.vimeo.com/video/1107535283?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    title="Lifely_Notes"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
@@ -767,13 +768,13 @@ export default function Index() {
                     <span className="bg-lifeos-primary/10 text-lifeos-primary px-3 py-1 rounded-full text-xs font-medium">KPI Integration</span>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
-                  <iframe
-                    src="https://player.vimeo.com/video/1107535374?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1&controls=0"
-                    className="w-full h-full"
-                    style={{ border: 'none' }}
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    title="Goals and Routines"
+                <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '64.06%', position: 'relative' }}>
+                  <iframe 
+                    src="https://player.vimeo.com/video/1107535374?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    title="Lifely_Goals+Routine"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-lifeos-primary/20 to-lifeos-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
