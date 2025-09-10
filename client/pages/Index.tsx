@@ -473,9 +473,9 @@ export default function Index() {
                     {/* Video */}
                     <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                       <iframe
-                        src="https://player.vimeo.com/video/1099560675?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=0&controls=1&title=0&byline=0&portrait=0&dnt=1&transparent=0"
+                        src="https://player.vimeo.com/video/1099560675?h=0&title=0&byline=0&portrait=0&badge=0&controls=1&dnt=1"
                         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
-                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        allow="autoplay; fullscreen; picture-in-picture"
                         allowFullScreen
                         title="Lifely_Official_Demo"
                       />
@@ -488,7 +488,7 @@ export default function Index() {
                   {/* Floating Action Button - More visible and below the video */}
                   <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 z-30">
                     <a 
-                      href="https://player.vimeo.com/video/1099560675?dnt=1&transparent=0"
+                      href="https://vimeo.com/1099560675"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-110 hover:-translate-y-2 flex items-center gap-3 border-2 border-white/20"
@@ -655,7 +655,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '66.5%', position: 'relative' }}>
                   <iframe 
-                    src="https://player.vimeo.com/video/1107535099?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
+                    src="https://player.vimeo.com/video/1107535099?h=0&title=0&byline=0&portrait=0&badge=0&controls=1&dnt=1" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
                     referrerPolicy="strict-origin-when-cross-origin"
@@ -693,7 +693,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
                   <iframe 
-                    src="https://player.vimeo.com/video/1107537014?badge=0&autopause=0&player_id=0&app_id=58479" 
+                    src="https://player.vimeo.com/video/1107537014?h=0&title=0&byline=0&portrait=0&badge=0&controls=1&dnt=1" 
                     className="w-full h-full"
                     style={{ border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
@@ -732,7 +732,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '62.65%', position: 'relative' }}>
                   <iframe 
-                    src="https://player.vimeo.com/video/1107535283?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
+                    src="https://player.vimeo.com/video/1107535283?h=0&title=0&byline=0&portrait=0&badge=0&controls=1&dnt=1" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
                     referrerPolicy="strict-origin-when-cross-origin"
@@ -770,7 +770,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '64.06%', position: 'relative' }}>
                   <iframe 
-                    src="https://player.vimeo.com/video/1107535374?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
+                    src="https://player.vimeo.com/video/1107535374?h=0&title=0&byline=0&portrait=0&badge=0&controls=1&dnt=1" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
                     referrerPolicy="strict-origin-when-cross-origin"
