@@ -655,7 +655,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '66.5%', position: 'relative' }}>
                   <iframe 
-                    src="https://drive.google.com/file/d/16tynPaXaQ07CzvFiGe7BlFgCPsOOONu0/preview?usp=embed_googleplus" 
+                    src="https://drive.google.com/file/d/16tynPaXaQ07CzvFiGe7BlFgCPsOOONu0/preview?usp=embed_googleplus&autoplay=1&loop=1&mute=1" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
@@ -693,7 +693,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
                   <iframe 
-                    src="https://drive.google.com/file/d/1Ac0to6ry8xgUF6YoXsnbzLJMM9ANbJa-/preview?usp=embed_googleplus" 
+                    src="https://drive.google.com/file/d/1Ac0to6ry8xgUF6YoXsnbzLJMM9ANbJa-/preview?usp=embed_googleplus&autoplay=1&loop=1&mute=1" 
                     className="w-full h-full"
                     style={{ border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
@@ -732,7 +732,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '62.65%', position: 'relative' }}>
                   <iframe 
-                    src="https://drive.google.com/file/d/10FZuX88Q9m0hXRCXJQdP2ptDDB-rbvIX/preview?usp=embed_googleplus" 
+                    src="https://drive.google.com/file/d/10FZuX88Q9m0hXRCXJQdP2ptDDB-rbvIX/preview?usp=embed_googleplus&autoplay=1&loop=1&mute=1" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
@@ -770,7 +770,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '64.06%', position: 'relative' }}>
                   <iframe 
-                    src="https://drive.google.com/file/d/1UZ3oFKBQLBlwl76vX-HrD7eILt0ayqcb/preview?usp=embed_googleplus" 
+                    src="https://drive.google.com/file/d/1UZ3oFKBQLBlwl76vX-HrD7eILt0ayqcb/preview?usp=embed_googleplus&autoplay=1&loop=1&mute=1" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
