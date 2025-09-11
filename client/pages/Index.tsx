@@ -473,7 +473,7 @@ export default function Index() {
                     {/* Video */}
                     <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                       <iframe
-                        src="https://drive.google.com/file/d/1UZ3oFKBQLBlwl76vX-HrD7eILt0ayqcb/preview"
+                        src="https://player.vimeo.com/video/1099560675?h=0&title=0&byline=0&portrait=0&badge=0&controls=1&dnt=1"
                         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                         allow="autoplay; fullscreen; picture-in-picture"
                         allowFullScreen
@@ -488,7 +488,7 @@ export default function Index() {
                   {/* Floating Action Button - More visible and below the video */}
                   <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 z-30">
                     <a 
-                      href="https://drive.google.com/file/d/1UZ3oFKBQLBlwl76vX-HrD7eILt0ayqcb/view"
+                      href="https://vimeo.com/1099560675"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-110 hover:-translate-y-2 flex items-center gap-3 border-2 border-white/20"
@@ -655,7 +655,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '66.5%', position: 'relative' }}>
                   <iframe 
-                    src="https://drive.google.com/file/d/16tynPaXaQ07CzvFiGe7BlFgCPsOOONu0/preview" 
+                    src="https://drive.google.com/file/d/16tynPaXaQ07CzvFiGe7BlFgCPsOOONu0/preview?usp=embed_googleplus" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
@@ -693,7 +693,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
                   <iframe 
-                    src="https://drive.google.com/file/d/1Ac0to6ry8xgUF6YoXsnbzLJMM9ANbJa-/preview" 
+                    src="https://drive.google.com/file/d/1Ac0to6ry8xgUF6YoXsnbzLJMM9ANbJa-/preview?usp=embed_googleplus" 
                     className="w-full h-full"
                     style={{ border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
@@ -732,7 +732,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '62.65%', position: 'relative' }}>
                   <iframe 
-                    src="https://drive.google.com/file/d/10FZuX88Q9m0hXRCXJQdP2ptDDB-rbvIX/preview" 
+                    src="https://drive.google.com/file/d/10FZuX88Q9m0hXRCXJQdP2ptDDB-rbvIX/preview?usp=embed_googleplus" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
@@ -770,7 +770,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '64.06%', position: 'relative' }}>
                   <iframe 
-                    src="https://drive.google.com/file/d/1UZ3oFKBQLBlwl76vX-HrD7eILt0ayqcb/preview" 
+                    src="https://drive.google.com/file/d/1UZ3oFKBQLBlwl76vX-HrD7eILt0ayqcb/preview?usp=embed_googleplus" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
