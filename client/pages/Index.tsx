@@ -655,7 +655,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '66.5%', position: 'relative' }}>
                   <iframe 
-                    src="https://www.youtube.com/embed/3EBEulanbWA?autoplay=1&mute=1&loop=1&playlist=3EBEulanbWA&controls=0&showinfo=0&rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/3EBEulanbWA?autoplay=1&mute=1&loop=1&playlist=3EBEulanbWA" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
@@ -693,7 +693,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ aspectRatio: '1.5/1' }}>
                   <iframe 
-                    src="https://www.youtube.com/embed/BnIY6b3-4H0?autoplay=1&mute=1&loop=1&playlist=BnIY6b3-4H0&controls=0&showinfo=0&rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/BnIY6b3-4H0?autoplay=1&mute=1&loop=1&playlist=BnIY6b3-4H0" 
                     className="w-full h-full"
                     style={{ border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
@@ -732,7 +732,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '62.65%', position: 'relative' }}>
                   <iframe 
-                    src="https://www.youtube.com/embed/nmZIDV_H4I8?autoplay=1&mute=1&loop=1&playlist=nmZIDV_H4I8&controls=0&showinfo=0&rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/nmZIDV_H4I8?autoplay=1&mute=1&loop=1&playlist=nmZIDV_H4I8" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
@@ -770,7 +770,7 @@ export default function Index() {
                 </div>
                 <div className="bg-gradient-to-br from-lifeos-dark via-gray-900 to-lifeos-dark rounded-2xl overflow-hidden relative group/video hover:scale-105 hover:shadow-xl transition-all duration-300" style={{ paddingBottom: '64.06%', position: 'relative' }}>
                   <iframe 
-                    src="https://www.youtube.com/embed/jth0UUqhJ5g?autoplay=1&mute=1&loop=1&playlist=jth0UUqhJ5g&controls=0&showinfo=0&rel=0&modestbranding=1" 
+                    src="https://www.youtube.com/embed/jth0UUqhJ5g?autoplay=1&mute=1&loop=1&playlist=jth0UUqhJ5g" 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                     allow="autoplay; fullscreen; picture-in-picture" 
                     allowFullScreen
